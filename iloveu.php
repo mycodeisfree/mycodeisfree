@@ -1,4 +1,6 @@
-<html><head><title>Send Geo to Whatsapp</title>
+<html>
+<head>
+<title>Send Geo to Whatsapp</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 <body>
@@ -27,4 +29,5 @@ function showPosition(position) {
 	location.replace("https://api.whatsapp.com/send?phone=629999999&text="+encodeURIComponent(loctext+"\nPlease send this message"));
 }
 </script>
-</body></html>
+</body>
+</html>
